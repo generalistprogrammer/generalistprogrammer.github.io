@@ -12,10 +12,7 @@ plugins:
   - jekyll-feed
 
 # Collections for better organization
-collections:
-  posts:
-    output: true
-    permalink: /:title.html
+permalink: /:title.html
 
 # Defaults for front matter
 defaults:
