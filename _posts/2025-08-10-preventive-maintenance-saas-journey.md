@@ -2,14 +2,13 @@
 layout: post
 title: "Building a Preventive Maintenance SaaS: From Idea to Product-Market Fit"
 description: "A founder's transparent journey building preventive maintenance software from scratch. Learn how we validated the market, built an MVP with limited resources, acquired enterprise customers, and found product-market fit in the facilities management space."
-date: 2024-02-20
-categories: [case-study, saas, b2b]
+date: 2025-08-10
+category: "Case Studies"
+tags: ["saas", "b2b", "startup", "product-management"]
 keywords: "preventive maintenance software, SaaS case study, B2B SaaS, facilities management software, product-market fit, MVP development, enterprise software, CMMS alternative, startup journey, SaaS pricing strategy, customer acquisition, maintenance management, IoT integration, B2B sales"
-author: "Michael Chen"
+author: "Generalist Programmer"
 read_time: 15
 canonical_url: "https://generalistprogrammer.github.io/preventive-maintenance-saas-journey.html"
-permalink: /preventive-maintenance-saas-journey/
-image: /assets/images/preventive-maintenance-saas-cover.jpg
 excerpt: "A founder's transparent journey building preventive maintenance software from scratch. Learn how we validated the market, built an MVP with limited resources, acquired enterprise customers, and found product-market fit in the facilities management space."
 ---
 

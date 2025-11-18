@@ -5,10 +5,14 @@
 Your site is fully automated with Jekyll. Here's how to add articles:
 
 ───────────────────────────────────────────────────────────────
-1. CREATE NEW FILE
+1. CREATE NEW FILE IN _posts DIRECTORY
 ───────────────────────────────────────────────────────────────
 
-Create: your-article-name.md
+Create: _posts/YYYY-MM-DD-your-article-name.md
+
+Example: _posts/2025-11-19-my-new-article.md
+
+IMPORTANT: Jekyll requires date prefix in filename!
 
 ───────────────────────────────────────────────────────────────
 2. ADD FRONTMATTER (Copy/Paste Template)
