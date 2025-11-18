@@ -17,7 +17,7 @@ layout: default
 </section>
 
 <!-- Featured Article -->
-{% assign featured = site.pages | where_exp: "page", "page.url contains 'convert-whatsapp-chat-to-pdf'" | first %}
+{% assign featured = site.posts | where_exp: "post", "post.url contains 'convert-whatsapp-chat-to-pdf'" | first %}
 {% if featured %}
 <section class="featured-article">
     <div class="container">
@@ -71,7 +71,7 @@ layout: default
 
         <div class="articles-grid">
             <!-- Article Cards -->
-            {% assign articles = site.pages | where_exp: "page", "page.layout == 'post'" | sort: "date" | reverse %}
+            {% assign articles = site.posts | sort: "date" | reverse %}
             {% for article in articles limit: 6 %}
             <article class="article-card">
                 <div class="article-card-content">
