@@ -2,7 +2,7 @@
 layout: post
 title: "Starting an AI Automation Agency: My South Africa Journey"
 description: "Real insights from launching an AI automation agency in South Africa. Learn about client acquisition, technical challenges, pricing models, and practical implementation strategies from 18 months of hands-on experience."
-author: "Gerome Grignon"
+author: "Generalist Programmer"
 date: 2025-09-10
 categories: [AI, Business, Automation]
 tags: [AI automation, business process automation, AI consulting, chatbots, workflow automation, South Africa]

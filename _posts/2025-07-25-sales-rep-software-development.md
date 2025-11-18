@@ -6,7 +6,7 @@ date: 2025-07-25
 categories: [product-development, saas, sales-software]
 excerpt: "How we identified market gaps, built mobile-first sales rep software with offline sync, and launched in South Africa's competitive SMB market. Technical architecture and lessons learned."
 keywords: "sales rep software, field sales management, mobile CRM, South African software, offline-first architecture, PWA development, sales automation"
-author: "Gerome (Senior Software Architect)"
+author: "Generalist Programmer"
 canonical_url: "https://generalistprogrammer.github.io/sales-rep-software-development.html"
 ---
 
