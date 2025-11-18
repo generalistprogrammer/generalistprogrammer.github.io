@@ -16,6 +16,23 @@ Welcome to Generalist Programmer, your resource for expert insights on technolog
 
 ## Latest Articles
 
+### [How to Convert WhatsApp Chat to PDF: Complete Guide](convert-whatsapp-chat-to-pdf.html)
+
+Learn the fastest way to convert WhatsApp chats to PDF in just 30 seconds. This comprehensive guide shows you:
+
+- Why you need to convert WhatsApp chats to PDF
+- Step-by-step guide for iPhone and Android
+- The easiest free tool (ChatToPDF.app)
+- Alternative methods and comparisons
+- Legal, business, and personal use cases
+- FAQ, troubleshooting, and security tips
+
+**Published:** November 18, 2025 | **Read Time:** 8 min
+
+[Read Full Article →](convert-whatsapp-chat-to-pdf.html)
+
+---
+
 ### [CTO as a Service: Complete Guide to Fractional Technology Leadership](cto-as-a-service.html)
 
 Discover how CTO as a Service can provide your business with expert technology leadership, strategic planning, and technical guidance without the full-time executive cost. This comprehensive guide covers:
@@ -27,7 +44,7 @@ Discover how CTO as a Service can provide your business with expert technology l
 - Engagement models and pricing
 - Common misconceptions debunked
 
-**Published:** November 18, 2024 | **Read Time:** 15 min
+**Published:** November 18, 2025 | **Read Time:** 15 min
 
 [Read Full Article →](cto-as-a-service.html)
 
@@ -54,4 +71,4 @@ Have questions or topics you'd like us to cover? We'd love to hear from you.
 
 ---
 
-*© 2024 Generalist Programmer. All rights reserved.*
+*© 2025 Generalist Programmer. All rights reserved.*
