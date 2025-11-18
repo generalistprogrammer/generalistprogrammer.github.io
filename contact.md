@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+permalink: /contact.html
 description: Get in touch with Generalist Programmer
 ---
 

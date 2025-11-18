@@ -72,7 +72,7 @@ layout: default
         <div class="articles-grid">
             <!-- Article Cards -->
             {% assign articles = site.posts | sort: "date" | reverse %}
-            {% for article in articles limit: 6 %}
+            {% for article in articles %}
             <article class="article-card">
                 <div class="article-card-content">
                     {% if article.category %}

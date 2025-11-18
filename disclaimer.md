@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Affiliate Disclaimer
-permalink: /disclaimer/
+permalink: /disclaimer.html
 ---
 
 # Affiliate Disclaimer

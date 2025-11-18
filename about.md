@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Generalist Programmer
-permalink: /about/
+permalink: /about.html
 description: Insights on technology leadership, software development, and real-world tech case studies.
 ---
 
