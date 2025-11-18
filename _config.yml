@@ -1,0 +1,12 @@
+# Site settings
+title: Generalist Programmer
+description: Expert insights on CTO as a Service and technology leadership
+url: https://generalistprogrammer.github.io
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Google verification
+google_site_verification: cum7KCJnQiyGndtcOeP39QlNZ2cS_yRl5inUNvb_a_A
