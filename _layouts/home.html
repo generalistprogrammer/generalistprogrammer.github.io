@@ -1,0 +1,193 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ site.title }}</h1>
+            <p class="hero-subtitle">{{ site.description }}</p>
+            <div class="hero-cta">
+                <a href="#articles" class="btn btn-primary">Explore Articles</a>
+                <a href="{{ '/about.html' | relative_url }}" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Article -->
+{% assign featured = site.pages | where_exp: "page", "page.url contains 'convert-whatsapp-chat-to-pdf'" | first %}
+{% if featured %}
+<section class="featured-article">
+    <div class="container">
+        <div class="featured-badge">Featured Article</div>
+        <div class="featured-content">
+            <div class="featured-text">
+                <h2 class="featured-title">
+                    <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+                </h2>
+                <p class="featured-description">{{ featured.description }}</p>
+                <div class="featured-meta">
+                    {% if featured.date %}
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        {{ featured.date | date: "%B %d, %Y" }}
+                    </span>
+                    {% endif %}
+                    {% if featured.read_time %}
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        {{ featured.read_time }} min read
+                    </span>
+                    {% endif %}
+                </div>
+                <a href="{{ featured.url | relative_url }}" class="featured-link">
+                    Read Article
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Articles Section -->
+<section class="articles-section" id="articles">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Latest Articles</h2>
+            <p class="section-subtitle">Expert insights on technology leadership and software development</p>
+        </div>
+
+        <div class="articles-grid">
+            <!-- Article Cards -->
+            {% assign articles = site.pages | where_exp: "page", "page.layout == 'post'" | sort: "date" | reverse %}
+            {% for article in articles limit: 6 %}
+            <article class="article-card">
+                <div class="article-card-content">
+                    {% if article.category %}
+                    <div class="article-category">{{ article.category }}</div>
+                    {% endif %}
+
+                    <h3 class="article-title">
+                        <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+                    </h3>
+
+                    <p class="article-excerpt">{{ article.description | truncate: 150 }}</p>
+
+                    <div class="article-meta">
+                        {% if article.date %}
+                        <span class="meta-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            {{ article.date | date: "%b %d, %Y" }}
+                        </span>
+                        {% endif %}
+                        {% if article.read_time %}
+                        <span class="meta-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                            {{ article.read_time }} min
+                        </span>
+                        {% endif %}
+                    </div>
+
+                    <a href="{{ article.url | relative_url }}" class="article-link">
+                        Read More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Topics Section -->
+<section class="topics-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Topics We Cover</h2>
+        </div>
+
+        <div class="topics-grid">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h3 class="topic-title">Technology Leadership</h3>
+                <p class="topic-description">Strategic guidance for CTOs and technology leaders</p>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <h3 class="topic-title">Software Development</h3>
+                <p class="topic-description">Best practices and modern development techniques</p>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                </div>
+                <h3 class="topic-title">Cloud Architecture</h3>
+                <p class="topic-description">Infrastructure design and cloud solutions</p>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <path d="M2 17l10 5 10-5"></path>
+                        <path d="M2 12l10 5 10-5"></path>
+                    </svg>
+                </div>
+                <h3 class="topic-title">Team Building</h3>
+                <p class="topic-description">Building and scaling engineering teams</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2 class="cta-title">Need Technology Leadership?</h2>
+            <p class="cta-description">Get expert CTO guidance without the full-time cost. Learn how fractional CTO services can help your business.</p>
+            <div class="cta-buttons">
+                <a href="{{ '/cto-as-a-service.html' | relative_url }}" class="btn btn-primary">Learn About CTO Services</a>
+                <a href="{{ '/contact.html' | relative_url }}" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</section>

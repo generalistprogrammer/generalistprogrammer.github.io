@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "Building Your First Engineering Team: A Complete Guide"
-date: 2025-11-18
-categories: [startup, hiring, engineering]
 description: "A comprehensive guide for first-time founders on when to hire engineers, how to structure your team, and avoid common hiring mistakes when building from zero to ten engineers."
 keywords: "first engineering hire, startup hiring, building engineering team, hiring engineers, startup CTO, technical hiring, engineering team structure"
+author: "Generalist Programmer"
+category: "Technical Guides"
+tags: ["hiring", "engineering", "team-building", "startup", "management"]
+date: 2025-11-18
+read_time: 18
 ---
 
 # Building Your First Engineering Team: A Complete Guide
@@ -397,3 +400,11 @@ Remember: every successful company was once a first-time founder making their fi
 ---
 
 *This guide is based on patterns observed across hundreds of successful and failed startup hiring processes. Your specific situation may require adjustments to these frameworks. When in doubt, talk to other founders who've recently scaled engineering teams in your industry.*
+---
+
+## Related Articles
+
+- [CTO as a Service: Complete Guide to Fractional Technology Leadership](cto-as-a-service.html)
+- [How to Choose the Right Tech Stack for Your Startup](choosing-tech-stack-startup.html)
+- [Cloud Architecture: AWS vs Azure vs GCP Comparison](cloud-architecture-comparison.html)
+- [API Security Best Practices for Modern Applications](api-security-best-practices.html)

@@ -1,0 +1,16 @@
+<!-- Automatic Related Posts based on categories and tags -->
+{% if site.related_posts.size > 0 %}
+<div class="related-posts">
+  <h2>Related Articles</h2>
+  <ul class="related-posts-list">
+    {% for post in site.related_posts limit:4 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.description %}
+      <p class="related-post-description">{{ post.description | truncate: 120 }}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

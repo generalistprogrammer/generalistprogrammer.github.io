@@ -1,0 +1,46 @@
+<!-- Automatic Article Grid Generator -->
+{% assign articles = site.posts | sort: 'date' | reverse %}
+
+{% if include.category %}
+  {% assign articles = articles | where: "category", include.category %}
+{% endif %}
+
+{% if include.limit %}
+  {% assign articles = articles | slice: 0, include.limit %}
+{% endif %}
+
+<div class="article-grid">
+  {% for post in articles %}
+  <article class="article-card">
+    <div class="article-header">
+      {% if post.category %}
+      <span class="article-category">{{ post.category }}</span>
+      {% endif %}
+      {% if post.read_time %}
+      <span class="article-read-time">{{ post.read_time }} min read</span>
+      {% endif %}
+    </div>
+
+    <h3 class="article-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+
+    {% if post.description %}
+    <p class="article-description">{{ post.description }}</p>
+    {% elsif post.excerpt %}
+    <p class="article-description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    {% endif %}
+
+    <div class="article-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%B %d, %Y" }}
+      </time>
+      {% if post.author %}
+      <span class="article-author">by {{ post.author }}</span>
+      {% endif %}
+    </div>
+
+    <a href="{{ post.url | relative_url }}" class="article-link">Read Full Article →</a>
+  </article>
+  {% endfor %}
+</div>

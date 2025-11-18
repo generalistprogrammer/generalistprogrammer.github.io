@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: post
 title: "CTO as a Service 2025: Fractional CTO Guide | Save 70% on Tech Leadership"
 description: "Expert CTO as a Service guide. Get C-level tech leadership for $5K-25K/month vs $200K+ full-time. Fractional CTO benefits, services & how to hire."
 keywords: "CTO as a Service, Fractional CTO, Interim CTO, Part-Time CTO, Virtual CTO, Outsourced CTO, Technology Leadership, Startup CTO, Tech Strategy, CTO Consulting"
 author: "Generalist Programmer"
+category: "Product Guides"
+tags: ["leadership", "cto", "startup", "consulting", "technology-strategy"]
 date: 2025-11-18
+read_time: 15
 modified: 2025-11-18
 canonical: "https://generalistprogrammer.github.io/cto-as-a-service.html"
 robots: "index, follow"

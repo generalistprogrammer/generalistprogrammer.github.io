@@ -6,10 +6,42 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections for better organization
+collections:
+  posts:
+    output: true
+    permalink: /:title.html
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
 
 # Google verification
 google_site_verification: cum7KCJnQiyGndtcOeP39QlNZ2cS_yRl5inUNvb_a_A

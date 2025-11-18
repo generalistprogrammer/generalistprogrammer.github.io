@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: post
 title: "Convert WhatsApp Chat to PDF - 30 Second Guide 2025"
 description: "Convert WhatsApp chats to PDF in 30 seconds. Step-by-step guide to export, save & share conversations. Works on iPhone & Android. Try ChatToPDF.app!"
 keywords: "convert whatsapp chat to pdf, whatsapp to pdf, export whatsapp chat, save whatsapp messages, whatsapp chat pdf converter, convert whatsapp to pdf online, whatsapp backup pdf"
 author: "Generalist Programmer"
+category: "Product Guides"
+tags: ["whatsapp", "pdf", "productivity", "tools", "messaging"]
 date: 2025-11-18
+read_time: 8
 modified: 2025-11-18
 canonical: "https://generalistprogrammer.github.io/convert-whatsapp-chat-to-pdf.html"
 robots: "index, follow"

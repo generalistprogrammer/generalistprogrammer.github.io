@@ -1,0 +1,67 @@
+<!-- Automatic Posts by Category -->
+{% assign product_guides = site.posts | where: "category", "Product Guides" | sort: "date" | reverse %}
+{% assign case_studies = site.posts | where: "category", "Case Studies" | sort: "date" | reverse %}
+{% assign technical_guides = site.posts | where: "category", "Technical Guides" | sort: "date" | reverse %}
+
+<!-- Product Guides -->
+{% if product_guides.size > 0 %}
+<section class="category-section">
+  <h2>Product Guides</h2>
+  <p class="category-description">Practical guides on tools, services, and solutions for business productivity and technology leadership.</p>
+  <div class="article-list">
+    {% for post in product_guides %}
+    <article class="article-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="article-description">{{ post.description }}</p>
+      <div class="article-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        {% if post.read_time %} | {{ post.read_time }} min read{% endif %}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read Full Article →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Case Studies -->
+{% if case_studies.size > 0 %}
+<section class="category-section">
+  <h2>Featured Case Studies</h2>
+  <p class="category-description">Real-world experiences building software products and businesses. Learn from actual implementations, challenges faced, and lessons learned.</p>
+  <div class="article-list">
+    {% for post in case_studies %}
+    <article class="article-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="article-description">{{ post.description }}</p>
+      <div class="article-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        {% if post.read_time %} | {{ post.read_time }} min read{% endif %}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read Full Article →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Technical Guides -->
+{% if technical_guides.size > 0 %}
+<section class="category-section">
+  <h2>Technical Guides</h2>
+  <p class="category-description">In-depth guides on software architecture, security, databases, and development best practices for engineering teams.</p>
+  <div class="article-list">
+    {% for post in technical_guides %}
+    <article class="article-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="article-description">{{ post.description }}</p>
+      <div class="article-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        {% if post.read_time %} | {{ post.read_time }} min read{% endif %}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read Full Article →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

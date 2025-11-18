@@ -11,15 +11,17 @@ description: Learn about our mission to help technology leaders make better deci
 
 Founded in 2020, Generalist Programmer exists to bridge the gap between technical execution and business leadership. We help CTOs, engineering managers, and technology leaders navigate the complex challenges of building and scaling software organizations.
 
+This publication is part of the broader Generalist Programmer network, which includes our main blog at [generalistprogrammer.com](https://generalistprogrammer.com), where we publish in-depth articles, tutorials, and industry analysis for technology leaders.
+
 Our focus is simple: **practical, actionable insights that you can implement immediately.**
 
-We cut through the hype cycles and vendor marketing to deliver honest, experience-driven guidance on technology leadership, team building, and strategic decision-making.
+We cut through the hype cycles and vendor marketing to deliver honest, experience-driven guidance on technology leadership, team building, and strategic decision-making. Our insights are drawn from real-world experience building and scaling multiple technology businesses across different industries.
 
 ## Who We Are
 
 ### Alex Jordan - Founder & Editor-in-Chief
 
-Alex Jordan founded Generalist Programmer after spending 12+ years moving up the technology leadership ladder—from junior software engineer to CTO at multiple venture-backed startups.
+Alex Jordan founded Generalist Programmer after spending 12+ years moving up the technology leadership ladder—from junior software engineer to CTO at multiple venture-backed startups. Since 2021, he has focused on building and advising technology companies, launching multiple successful products across different verticals.
 
 **Background:**
 - Computer Science degree from UC Berkeley (2011)
@@ -27,9 +29,9 @@ Alex Jordan founded Generalist Programmer after spending 12+ years moving up the
 - Engineering Manager at Shopify (2014-2017)
 - VP of Engineering at Series B SaaS startup (2017-2019)
 - CTO at early-stage fintech company (2019-2021)
-- Currently: Independent technology consultant and writer
+- Currently: Independent technology consultant, entrepreneur, and writer
 
-Alex's work has been cited in TechCrunch, The New Stack, and InfoQ. He specializes in scaling engineering teams, technical architecture decisions, and the intersection of product and engineering.
+Alex's work has been cited in TechCrunch, The New Stack, and InfoQ. He specializes in scaling engineering teams, technical architecture decisions, and the intersection of product and engineering. His hands-on experience building multiple technology businesses informs every piece of content published on Generalist Programmer.
 
 **Connect with Alex:**
 - [LinkedIn](https://linkedin.com/in/alexjordan-tech)
@@ -65,6 +67,33 @@ Priya leads our coverage on application security, compliance, and risk managemen
 - CISSP and OSCP certified
 - Advisor to multiple security startups
 - [LinkedIn](https://linkedin.com/in/drpriyasharma-security)
+
+## Our Projects
+
+Our insights come from real-world experience building and operating technology businesses. Alex and our team have launched and scaled multiple products across different industries:
+
+**[PLCProgramming.io](https://plcprogramming.io)** - Educational platform for industrial automation and PLC programming, serving engineers and technicians in manufacturing and process industries.
+
+**[PreventiveHQ.com](https://preventivehq.com)** - SaaS platform for preventive maintenance management, helping facilities teams optimize equipment reliability and reduce downtime.
+
+**[AI Automation Agency](https://aiautomationagency.co.za)** - Consulting and implementation services for AI-driven business process automation, with a focus on practical ROI for small and mid-sized businesses.
+
+**[Sales Rep Software](https://salesrepsoftware.co.za)** - Field sales enablement platform designed for distributed sales teams in emerging markets.
+
+**[Tech Startup Ideas](https://techstartupideas.app)** - Resource hub for aspiring technical founders, providing validated startup concepts, market research, and technical architecture guidance.
+
+These projects span B2B SaaS, education technology, consulting services, and developer tools—giving us diverse perspectives on building, launching, and scaling technology products in different market contexts.
+
+## Case Studies & Deep Dives
+
+Throughout our content, we reference lessons learned from building these businesses. Some of our most popular case study articles include:
+
+- **Scaling a Niche SaaS from 0 to 1,000 Customers** - Technical and go-to-market insights from growing PLCProgramming.io
+- **Building AI Products That Actually Generate ROI** - Lessons from hundreds of automation implementations at AI Automation Agency
+- **Choosing the Right Tech Stack for B2B SaaS** - Architecture decisions and tradeoffs from PreventiveHQ's platform evolution
+- **Field Sales Software in Emerging Markets** - Unique technical challenges and solutions from building for low-connectivity environments
+
+These case studies provide concrete examples of the principles and strategies we discuss in our broader content.
 
 ## What We Cover
 

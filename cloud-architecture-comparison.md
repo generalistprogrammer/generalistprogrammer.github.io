@@ -1,9 +1,13 @@
 ---
+layout: post
 title: "Understanding Cloud Architecture: AWS vs Azure vs GCP Comparison 2025"
-date: 2025-11-18
-author: "Technical Analysis"
 description: "Comprehensive technical comparison of AWS, Azure, and GCP cloud architectures for CTOs and engineering leaders making strategic platform decisions in 2025."
 keywords: "cloud architecture, AWS vs Azure vs GCP, cloud platform comparison, cloud migration, multi-cloud strategy, cloud cost optimization"
+author: "Generalist Programmer"
+category: "Technical Guides"
+tags: ["cloud", "aws", "azure", "gcp", "architecture", "infrastructure"]
+date: 2025-11-18
+read_time: 20
 ---
 
 # Understanding Cloud Architecture: AWS vs Azure vs GCP Comparison 2025
@@ -547,3 +551,11 @@ Ultimately, successful cloud adoption depends less on provider selection and mor
 - [Terraform Cloud Provider Documentation](https://www.terraform.io/docs/providers/index.html)
 - [Cloud Native Computing Foundation Projects](https://www.cncf.io/projects/)
 - [FinOps Foundation Best Practices](https://www.finops.org/)
+---
+
+## Related Articles
+
+- [Microservices vs Monolith: Making the Right Architecture Choice](microservices-vs-monolith.html)
+- [Database Design Principles: From Normalization to Performance](database-design-principles.html)
+- [API Security Best Practices for Modern Applications](api-security-best-practices.html)
+- [CTO as a Service: Complete Guide to Fractional Technology Leadership](cto-as-a-service.html)
