@@ -6,6 +6,7 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
+permalink: /:title.html
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
