@@ -1,0 +1,91 @@
+═══════════════════════════════════════════════════════════════
+  QUICK GUIDE: How to Add New Articles
+═══════════════════════════════════════════════════════════════
+
+Your site is fully automated with Jekyll. Here's how to add articles:
+
+───────────────────────────────────────────────────────────────
+1. CREATE NEW FILE
+───────────────────────────────────────────────────────────────
+
+Create: your-article-name.md
+
+───────────────────────────────────────────────────────────────
+2. ADD FRONTMATTER (Copy/Paste Template)
+───────────────────────────────────────────────────────────────
+
+---
+layout: post
+title: "Your Article Title Here"
+description: "SEO description 150-160 chars"
+keywords: "keyword1, keyword2, keyword3"
+author: "Generalist Programmer"
+category: "Technical Guides"
+tags: ["tag1", "tag2", "tag3"]
+date: 2025-11-18
+read_time: 10
+modified: 2025-11-18
+canonical_url: "https://generalistprogrammer.github.io/your-article-name.html"
+robots: "index, follow"
+---
+
+Categories (choose ONE):
+• "Product Guides"
+• "Case Studies"
+• "Technical Guides"
+
+Tags: Add 3-5 relevant tags for related posts matching
+
+───────────────────────────────────────────────────────────────
+3. WRITE CONTENT
+───────────────────────────────────────────────────────────────
+
+Write your markdown content below the frontmatter.
+
+───────────────────────────────────────────────────────────────
+4. PUSH TO GITHUB
+───────────────────────────────────────────────────────────────
+
+git add .
+git commit -m "Add new article"
+git push
+
+───────────────────────────────────────────────────────────────
+WHAT HAPPENS AUTOMATICALLY (100% AUTOMATIC!)
+───────────────────────────────────────────────────────────────
+
+✓ Added to sitemap.xml
+✓ Related posts matched by category/tags
+✓ RSS feed updated
+✓ AUTOMATICALLY APPEARS ON HOMEPAGE in correct category
+✓ Listed in "Latest Articles" if it's recent
+✓ Listed in "Browse by Category" section
+✓ SEO meta tags generated
+✓ Internal linking handled
+
+───────────────────────────────────────────────────────────────
+WHAT YOU DON'T NEED TO DO
+───────────────────────────────────────────────────────────────
+
+✗ Update sitemap manually
+✗ Add related articles sections
+✗ Update homepage manually
+✗ Create navigation links
+
+───────────────────────────────────────────────────────────────
+CURRENT SITE STRUCTURE
+───────────────────────────────────────────────────────────────
+
+5 Site Pages:
+• index.md (homepage)
+• about.md
+• contact.md
+• privacy.md
+• disclaimer.md
+
+13 Articles:
+• All referenced on homepage
+• Organized by category
+• Auto-linked via related posts
+
+═══════════════════════════════════════════════════════════════
